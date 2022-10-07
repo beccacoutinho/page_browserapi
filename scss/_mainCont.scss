@@ -1,0 +1,35 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: auto;
+    padding-left: 5vw;
+    img{
+        margin-top: 2vw;
+        width: 601px;
+        height: 395px;
+    }
+}
+
+.infos{
+    margin-left: 5vw;
+    padding-left: 5vw;
+    width: 30vw;
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.5rem;
+        color: $color4;
+    }
+    button{
+        border: 1px solid $color2;
+        color: $color5;
+        background-color: $color1;
+        cursor: pointer;
+        font-size: 1.2rem;
+        height: 2vw;
+        width: 10vw; 
+      }
+}
+

@@ -1,0 +1,26 @@
+.contentfooter{
+    width: 100vw;
+    display: flex;
+    background-color: $color3;
+    color: $color1;
+    bottom:0 ;
+    left: 0;
+    padding: 2vh 8vw ;
+    footer{
+        display: flex;
+        flex-direction: row;
+        gap: 65vw;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+    img{
+        width: 100px;
+        height: 33px;
+    }
+
+}
+
+.botlogo{
+    margin-top: 0.7vh;
+}

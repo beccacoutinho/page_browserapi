@@ -1,0 +1,31 @@
+.localizacao{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+.loc-cont{
+    display: flex;
+    flex-direction: row;
+}
+.loc-infos{
+    position: relative;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    h2{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.5rem;
+        color: $color4;
+    }
+}
+.mapa{
+    margin: auto;
+    width: 35vw;
+    height: 35vh;
+    overflow: hidden;
+    padding-left: 1.5vw;
+}
+.circsvg{
+    position: absolute;
+}

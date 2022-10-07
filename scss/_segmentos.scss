@@ -1,0 +1,49 @@
+.segmentos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vw;
+}
+.seg-infos{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    h2{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.5rem;
+        color: $color4;
+    }
+}
+.produtos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    gap: 5vw;
+
+    .prod_it{
+        width: 20vw;
+        .titulo-ico{
+            display: flex;
+            flex-direction: row;
+            gap: 2vw;
+            i{
+                font-size: 1.6rem;
+                border-bottom: 1px solid black;
+                border-right: 1px solid black;
+                padding: 0.5vw;
+            }
+            h4{
+                padding-top: 1vw;
+                margin-bottom: 0;
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    
+    .info-prod{
+        margin-left: 2.5vw;
+    }
+    
+}

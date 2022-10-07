@@ -1,0 +1,66 @@
+.servicos{
+    display: flex;
+    flex-direction: column;
+}
+.serv-infos{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    h2{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.5rem;
+        color: $color4;
+    }
+}
+.serv-list{
+    display: flex;
+    flex-direction: row;
+    gap: 0.6vw;
+    margin: auto;
+    z-index: 1;
+}
+.back-serv{
+    display: flex;
+    flex-direction: column;
+    width: 8vw;
+    font-size: 0.8rem;
+    color: white;
+    background-color: rgba(0, 116, 255, 1);
+    padding: 0.5vw;
+    
+    h3{
+       position: absolute;
+       color: rgba(26, 26, 26, 0.1);
+       font-size: 5rem;
+       margin: 0;
+    }
+    h4{
+        font-size: 1.2rem;
+        margin-top: 3.4vw;
+        margin-left: 1vw;
+    }
+    ul{
+        list-style-type: circle;
+        padding: inherit;
+        margin-left: 0.5vw;
+        font-size: 0.6rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        li{
+            list-style-position: outside;
+        }
+    }
+    p{
+        font-size: 0.6rem;
+    }
+    .first_p{
+        margin-top: 1vw;
+    }
+}
+.svg2{
+    position: absolute;
+    align-items: flex-end;
+    margin-left: 80vw;
+}
